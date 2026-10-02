@@ -1,41 +1,14 @@
-# 🔍 decode-plan — 設計稿逆向工程師 (Design Reverse Engineer)
+# 🤖 decode-plan
 
-> 米其林 AI 開發軍團中的**「米其林評審員 × 情報員」**。
-> 看到好看的網站、圖片、設計，自動拆解其設計 DNA，
-> 輸出完整藍圖交給主廚重建，讓每份靈感都成為合法的原創養分。
+**設計稿逆向工程師。拆解競品顏色、字體、版型與動畫，1:1 網頁拔模。**
 
-## 📁 倉庫結構
+這支 Repository 是米其林 17 人黃金艦隊 (V4 架構) 的專屬微服務節點。
+作為純粹的邏輯大腦，本庫房不存放冗餘程式碼，僅保留最核心的 `SKILL.md` 指令與介面定義。
 
-```
-decode-plan/
-├── SKILL.md       ← 主技能文件（六大解構模組）
-└── README.md      ← 本說明文件
-```
+## 📥 介面定義
+* **Input**: 來自中樞神經 `peo-plan` 的分發任務。
+* **Output**: 產出符合自身職責的高標準成品，並回傳綠燈信號。
+* **Exception**: 遭遇死胡同將自動觸發 V4 廠內熔斷器。
 
-## 🔬 六大解構能力
-
-| 模組 | 能做什麼 |
-|-----|---------|
-| 🎨 視覺 DNA 萃取 | 色票/字體/間距/陰影精確提取 |
-| 🏗️ 結構版型解構 | Grid系統/元件切分/響應式策略 |
-| ✨ 動畫互動解構 | 動畫參數/觸發邏輯/微互動識別 |
-| 🕵️ SEO 情報解構 | H1~H3/Meta/JSON-LD競品分析 |
-| 🖼️ 圖片風格重生 | 提取風格→生成100%原創替代圖 |
-| 📜 養分封存 | 解構結果自動存入 recipe 食譜庫 |
-
-## 🚀 如何使用
-
-對 AI 說：
-> `decode-plan，幫我解構這個網站（或圖片）：[URL 或圖片]`
-
-調度官 `peo-plan` 會自動召喚解構師 + 法務長 + SEO師 三人協同出動！
-
-## ⚖️ 法律原則
-- ✅ 分析靈感、重新生成 → 合法
-- ❌ 直接複製搬運 → 侵權（law-plan 會否決）
-
-## 🔗 相關倉庫
-- 調度官：[cw33c2/peo-plan](https://github.com/cw33c2/peo-plan)
-- 法務長：[cw33c2/law-plan](https://github.com/cw33c2/law-plan)
-- SEO師：[cw33c2/seo-plan](https://github.com/cw33c2/seo-plan)
-- 全域備份：[cw33c2/antigravity-skills-backup](https://github.com/cw33c2/antigravity-skills-backup)
+---
+🔗 [返回 17 人總指揮部 (ROSTER_17_MANUAL)](https://github.com/cw33c2/pos-plan/blob/main/ROSTER_17_MANUAL.md)
